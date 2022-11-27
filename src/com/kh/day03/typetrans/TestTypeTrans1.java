@@ -9,10 +9,9 @@ public class TestTypeTrans1 {
 		double result = iNum +dNum; 
 		System.out.println(result);
 		
-		System.out.println("강제 형변환 : " + (int)result); //(큰8->작4)
-		System.out.println("강제 형변환 : " + (char)65);// (큰4->작2)
+		System.out.println("강제 형변환 : " + (int)result); //double->int)
+		System.out.println("강제 형변환 : " + (char)65);// (int->char)
 		
 	}
 	
-
 }

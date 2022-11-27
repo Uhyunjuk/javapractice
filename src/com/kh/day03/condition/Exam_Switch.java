@@ -5,45 +5,46 @@ import java.util.Scanner;
 public class Exam_Switch {
 
 	public static void main(String[] args) {
-		// 1. ÀÔ·Â
-		// 2. ¼öÁ¤
-		// 3. Á¶È¸
-		// 4. »èÁ¦
-		// 0. Á¾·á
-		// ¸Þ´º ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä : 3
-		// Á¶È¸¸Þ´ºÀÔ´Ï´Ù.
+		// 1. ï¿½Ô·ï¿½
+		// 2. ï¿½ï¿½ï¿½ï¿½
+		// 3. ï¿½ï¿½È¸
+		// 4. ï¿½ï¿½ï¿½ï¿½
+		// 0. ï¿½ï¿½ï¿½ï¿½
+		// ï¿½Þ´ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ : 3
+		// ï¿½ï¿½È¸ï¿½Þ´ï¿½ï¿½Ô´Ï´ï¿½.
 		
+
 		Scanner sc = new Scanner(System.in);
-		System.out.println("1. ÀÔ·Â");
-		System.out.println("2. ¼öÁ¤");
-		System.out.println("3. Á¶È¸");
-		System.out.println("4. »èÁ¦");
-		System.out.println("0. Á¾·á");
-		System.out.println("¸Þ´º ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.println("1. ï¿½Ô·ï¿½");
+		System.out.println("2. ï¿½ï¿½ï¿½ï¿½");
+		System.out.println("3. ï¿½ï¿½È¸");
+		System.out.println("4. ï¿½ï¿½ï¿½ï¿½");
+		System.out.println("0. ï¿½ï¿½ï¿½ï¿½");
+		System.out.println("ï¿½Þ´ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ : ");
 		
-		//switch-case´Â Á¶°Ç½Ä ÇÊ¿ä¾øÀ½
+		//switch-caseï¿½ï¿½ ï¿½ï¿½ï¿½Ç½ï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ï¿½
 		int choice = sc.nextInt();
 		switch (choice) {
 			case 1 :
-				System.out.println("ÀÔ·Â¸Þ´ºÀÔ´Ï´Ù.");
+				System.out.println("ï¿½Ô·Â¸Þ´ï¿½ï¿½Ô´Ï´ï¿½.");
 				break;
 			case 2 :
-				System.out.println("¼öÁ¤¸Þ´ºÀÔ´Ï´Ù.");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½Ô´Ï´ï¿½.");
 				break;
 			case 3 :
-				System.out.println("Á¶È¸¸Þ´ºÀÔ´Ï´Ù.");
+				System.out.println("ï¿½ï¿½È¸ï¿½Þ´ï¿½ï¿½Ô´Ï´ï¿½.");
 				break;
 			case 4 :
-				System.out.println("»èÁ¦¸Þ´ºÀÔ´Ï´Ù.");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½Ô´Ï´ï¿½.");
 				break;
 			case 0 :
-				System.out.println("Á¾·á¸Þ´ºÀÔ´Ï´Ù.");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½Ô´Ï´ï¿½.");
 				break;
-			default : System.out.println("0 ~ 4 »çÀÌÀÇ ¼ýÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			default : System.out.println("0 ~ 4 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½.");
 			
 		}
 		
-		// Áý¿¡°¡¼­ switch-case¹®À¸·Î °è»ê±â ¸¸µé¾îº¸±â
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ switch-caseï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½îº¸ï¿½ï¿½
 		
 		
 		
@@ -52,15 +53,15 @@ public class Exam_Switch {
 		
 		
 		/* if(choice == 1) {
-			System.out.println("ÀÔ·Â¸Þ´ºÀÔ´Ï´Ù.");
+			System.out.println("ï¿½Ô·Â¸Þ´ï¿½ï¿½Ô´Ï´ï¿½.");
 		} else if(choice == 2) {
-			System.out.println("¼öÁ¤¸Þ´ºÀÔ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½Ô´Ï´ï¿½.");
 		} else if(choice == 3) {
-			System.out.println("Á¶È¸¸Þ´ºÀÔ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½È¸ï¿½Þ´ï¿½ï¿½Ô´Ï´ï¿½.");
 		} else if(choice == 4) {
-			System.out.println("»èÁ¦¸Þ´ºÀÔ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½Ô´Ï´ï¿½.");
 		} else if(choice == 0) {
-			System.out.println("Á¾·á¸Þ´ºÀÔ´Ï´Ù.");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½Ô´Ï´ï¿½.");
 		}
 		*/
 

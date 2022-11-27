@@ -39,8 +39,8 @@ public class Exam_Unary {
 		int z = 0;
 		
 		System.out.println("2¹ø¹®Á¦");
-		System.out.println("x--;");
-		System.out.println("z = x-- + --y;");
+		System.out.println("x--;");             
+		System.out.println("z = x-- + --y;");   
 		System.out.println("x = 99 + x++ + x;");
 		System.out.println("y = y-- + y + ++y;");
 

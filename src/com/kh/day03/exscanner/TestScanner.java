@@ -8,7 +8,7 @@ public class TestScanner {
 		Scanner sc = new Scanner(System.in);
 
 		System.out.print("이름을 입력해주세요.");
-		String name = sc.next(); // 이름같은 간단한건 그냥 next
+		String name = sc.next(); 
 
 		System.out.print("태어난 월을 입력해주세요.");
 		int month = sc.nextInt();
@@ -22,6 +22,8 @@ public class TestScanner {
 		System.out.print("주소를 입력해주세요.");
 		sc.nextLine(); // 엔터 제거!!
 		String address = sc.nextLine(); // 주소같이 긴건 nextLine사용
+			// 성별 입력하고 엔터누르면 넥스트라인이 같이 먹음
+			// 넥스트라인 위에다가 한번더 써줘야함
 
 		System.out.println("이름은 " + name + "입니다.");
 		System.out.println("태어난 월은 " + month + "월 입니다.");
@@ -47,9 +49,6 @@ public class TestScanner {
 //		키는 180.0입니다.
 //		성별은남입니다.
 //		주소는 서울시 종로구입니다.
-
-		// 성별 입력하고 엔터누르면 넥스트라인이 같이 먹음
-		// 넥스트라인 위에다가 한번더 써줘야함
 
 	}
 }

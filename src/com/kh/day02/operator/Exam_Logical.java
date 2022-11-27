@@ -11,7 +11,7 @@ public class Exam_Logical {
 		boolean result1, result2, result3, result4; // 변수의 선언
 		
 		// num1과 num2가 다르면서 num2가 num1보다 클때
-		result1 = (num1 != num2) && (num1 < num2); // ture, false => false
+		result1 = (num1 != num2) && (num1 < num2); // false
 		System.out.println("result1의 결과값 : " + result1);
 		
 		result2 = (num1 < num2) || (num1 == num2);
@@ -37,6 +37,10 @@ public class Exam_Logical {
 		System.out.println("result4의 결과값 : " + result4);
 		System.out.println("aNum의 값: " + aNum);
 		System.out.println("bNum의 값: " + bNum);
+		
+		// OR(||)은 앞에 false여도 뒤에 true 있으면 값이 true 나옴. (뒤를 확인한다)
+		// AND(&&)는 앞에 false면 바로 값을 false로 냄. (뒤에 true여도 확인하지 않음)
+		// 그래서 and쓸땐 확실한값들은 앞부분에다가 써줘서 효율을 높여야함
 		
 		
 
