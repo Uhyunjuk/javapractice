@@ -6,8 +6,8 @@ public class Exam_Random {
 
 	public static void main(String[] args) {
 		Random rand = new Random();
-		for (int i = 0; i <= 30; i++) {
-			System.out.println(rand.nextInt(16) + 20); 
+		for (int i = 0; i < 30; i++) {
+			System.out.println(rand.nextInt(45) + 1); 
 			
 		}
 		
@@ -16,14 +16,20 @@ public class Exam_Random {
 		// nextInt(10)+1, 즉 +1로 범위를 조정한다!
 		
 		// ex1. 20부터 35사이의 수 중에서 랜덤한 수를 뽑고 싶다면?
-		// nextInt(?)+? 해야할까요?
-		// 20~35 (각각 -20)
-		// 0~15 -> nextInt(??)
-		// ?? = (n-1 = 15) ->  n = 16
 		// nextInt(16) + 20
 		
-		//ex2. 10부터 23 사이의 수 
-		// nextInt() + 
+		// ex2. 10부터 23 사이의 수 
+		// nextInt(14) + 10 
+		
+		// ex.3 로또번호 (1~45)
+		// nextInt(45) + 1
+		
+		// nextInt(a) + b
+		// b에 시작하는 숫자 넣고 a는 나머지 차이값을 넣으면 됨
+		
+		
+		
+		
 	}
 }
 
