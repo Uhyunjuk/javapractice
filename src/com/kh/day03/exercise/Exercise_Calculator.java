@@ -47,7 +47,9 @@ public class Exercise_Calculator {
 		/*
 		 * int result = 0;
 		 * 
-		 * switch (oper) { case "+" : result = (num1 + num2); break; case "-" : result =
+		 * switch (oper) { 
+		 * case "+" : 
+		 * result = (num1 + num2); break; case "-" : result =
 		 * (num1 - num2); break; case "*" : result = (num1 * num2); break; case "/" :
 		 * result = (num1 / num2); break; case "%" : result = (num1 % num2); break; }
 		 * if(result != 0) { System.out.print("°á°ú : " + num1 + oper + num2 + " = " +

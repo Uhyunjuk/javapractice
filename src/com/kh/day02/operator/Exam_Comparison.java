@@ -1,37 +1,29 @@
 package com.kh.day02.operator;
 
 public class Exam_Comparison {
-	public static void main(String [] args) {
-		System.out.println("ï¿½ñ±³¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+	public static void main(String[] args) {
+		System.out.println("³í¸®¿¬»êÀÚ ¿¹Á¦");
 		// 1 < 2, 3 < 2, 1 == 2, 1 != 1
-		// t, f, f, f
-		// ï¿½ñ±³¿ï¿½ï¿½ï¿½ï¿½ï¿½ : ï¿½Î°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½è¿¬ï¿½ï¿½ï¿½ï¿½
-		// ï¿½ñ±³¿ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ t, ï¿½Æ´Ï¸ï¿½ f ï¿½ï¿½È¯   
-		
-		
+		// true, false, false, false
+		// ºñ±³¿¬»êÀÚ : µÎ °ªÀ» ºñ±³ÇÏ´Â ¿¬»êÀÚ, °ü°è¿¬»êÀÚ
+		// ºñ±³¿¬»êÀÚ´Â Á¶°ÇÀ» ¸¸Á·ÇÏ¸é true, ¾Æ´Ï¸é false¸¦ ¹ÝÈ¯ÇÔ.
 		int num1 = 50;
 		int num2 = 30;
 		boolean result = num1 < num2;
-		System.out.println("(num1 < num2)ï¿½ï¿½ ï¿½ï¿½ï¿½ : " + result);
-		
+		System.out.println("(num1 < num2ÀÇ °á°ú : " + result);
 		result = (num1 > num2);
-		System.out.println("(num1 > num2)ï¿½ï¿½ ï¿½ï¿½ï¿½ : " + result);
-		
+		System.out.println("(num1 > num2ÀÇ °á°ú : " + result);
 		result = (num1 == num2);
-		System.out.println("(num1 == num2)ï¿½ï¿½ ï¿½ï¿½ï¿½ : " + result);
-		
+		System.out.println("(num1 == num2ÀÇ °á°ú : " + result);
 		result = (num1 != num2);
-		System.out.println("(num1 != num2)ï¿½ï¿½ ï¿½ï¿½ï¿½ : " + result);
+		System.out.println("((num1 !=num2ÀÇ °á°ú : " + result);
 
-// ---------------------------------------------------------------		
 		
-		// Â¦È¦ ï¿½Çºï¿½ ï¿½ï¿½ï¿½Î±×·ï¿½ - ï¿½ï¿½â·¯ï¿½ï¿½(%) ï¿½ï¿½ï¿½ 
-		// Â¦ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Î°ï¿½? : 2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
-
+		//Â¦È¦ ÆÇº° ÇÁ·Î±×·¥
 		int num = 2;
-		result = (num % 2 == 0); 
-		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, ï¿½ï¿½â·¯ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
-		System.out.println("Â¦ï¿½ï¿½ï¿½Î°ï¿½ï¿½ï¿½? : " + result);
+		result = (num % 2 == 0);
+		// (³ª¸ÓÁö)ÀÇ °á°ú´Â ¸ò, %(¸ðµâ·¯½º)ÀÇ °á°ú´Â ³ª¸ÓÁö		
+		System.out.println("Â¦¼öÀÎ°¡¿ä? : " + result);
 
 	}
 }
