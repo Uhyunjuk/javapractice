@@ -10,32 +10,47 @@ public class Exam_SortSelect {
 		// 데이터 양이 많을때 급격한 성능저하를 보임
 		// 배열의 n번 인덱스 값을 n+1번 ~ 마지막 인덱스까지 비교함
 
-		int [] arrs = {2, 5, 4, 1, 3};
-		int min; // 인덱스값 저장
-		for(int i =  0; i < arrs.length; i++) {
-			min = i; // 가장 작을 때 인덱스 값
-			for(int j = i+1; j < arrs.length; j++) {
-				if(arrs[min] > arrs[j]) {
-					min = j;
-				}
-			}
-			int temp = arrs[min];
-			arrs[min] = arrs[i];
-			arrs[i] = temp;
-		}
-		
-		for(int i = 0; i < arrs.length; i++) {
-			System.out.print(arrs[i] + " ");
-		}
-		
 		// i=0일때
 		// 1, 5, 4, 2, 3 // 첫번째결과
 		// i=1일때
 		// 1, 2, 4, 5, 3 // 두번째 결과
 		// i=2일때
-		// 1, 2, 3, 5, 4 
+		// 1, 2, 3, 5, 4
 		// 1, 2, 3, 4, 5 // 세번째 결과
+		
+		int[] arrs = { 2, 5, 4, 1, 3 };
+		for (int i = 0; i < arrs.length - 1; i++) {
+			for (int j = i + 1; j < arrs.length; j++) {
+				if (arrs[i] > arrs[j]) {
+					int temp = arrs[j];
+					arrs[j] = arrs[i];
+					arrs[i] = temp;
+				}
+
+			}
+		}
+		for (int i = 0; i < arrs.length; i++) {
+			System.out.print(arrs[i] + " ");
+
+		}
+
+//		int [] arrs = {2, 5, 4, 1, 3};
+//		int min; // 인덱스값 저장
+//		for(int i =  0; i < arrs.length; i++) {
+//			min = i; // 가장 작을 때 인덱스 값
+//			for(int j = i+1; j < arrs.length; j++) {
+//				if(arrs[min] > arrs[j]) {
+//					min = j;
+//				}
+//			}
+//			int temp = arrs[min];
+//			arrs[min] = arrs[i];
+//			arrs[i] = temp;
+//		}
+//		
+//		for(int i = 0; i < arrs.length; i++) {
+//			System.out.print(arrs[i] + " ");
+//		}
+
 	}
 }
-
-

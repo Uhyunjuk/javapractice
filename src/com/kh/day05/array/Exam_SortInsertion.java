@@ -14,7 +14,7 @@ public class Exam_SortInsertion {
 		 * 2, 5, 4, 1, 3 // 1번째 결과(=숫자1개비교)
 		 * i = 1
 		 * 2, 5, 4, 1, 3 
-		 * 2, 4, 5, 1, 3 // 2번쨰 결과(=숫자2개비교)
+		 * 2, 4, 5, 1, 3 // 2번째 결과(=숫자2개비교)
 		 * i = 2 
 		 * 2, 4, 1, 5, 3 
 		 * 2, 1, 4, 5, 3
@@ -28,7 +28,7 @@ public class Exam_SortInsertion {
 
 		int[] arrs = {2, 5, 4, 1, 3};
 		for(int i = 1; i < arrs.length; i++) {
-			for(int j = i; j>0; j--) {
+			for(int j = 0; j<5; j++) {
 				if(arrs[j-1] > arrs[j]) {
 					int temp = arrs[j-1];
 					arrs[j-1] = arrs[j];
