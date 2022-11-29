@@ -27,3 +27,4 @@ public class Exercise_For4 {
 	}
 }
 // for문과 if문은 거의 같이 활용
+
