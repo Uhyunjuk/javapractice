@@ -6,9 +6,9 @@ public class Exercise_Array {
 	public void exercise1() {
 		// 길이가 100인 배열을 선언하고 1부터 100까지의 값을
 		// 순서대로 넣어 그 값을 출력하는 코드를 작성하시오.
-		int[] nums = new int[100]; // 선언, 할당
-		for (int i = 1; i < nums.length; i++) { // 초기화
-			nums[i] = i;
+		int[] nums = new int[100]; // nums[0]~nums[99]
+		for (int i = 1; i < nums.length; i++) { 
+			nums[i] = i; // 1~99만큼 집어넣고 출력
 			System.out.print(nums[i] + " ");
 		}
 	}
@@ -29,7 +29,7 @@ public class Exercise_Array {
 		// 편하게하는법 -> 할당과 초기화를 동시에 !
 		String[] fruitGoods = { "딸기", "복숭아", "키위", "사과", "바나나" };
 		for (int i = 0; i < fruitGoods.length; i++) {
-			if (fruitGoods[i] == "바나나") {
+			if (fruitGoods[i] == "복숭아") {
 				System.out.println(fruitGoods[i]);
 			}
 		}
@@ -48,7 +48,7 @@ public class Exercise_Array {
 		}
 		// 평균은 총합 / 데이터개수
 		// System.out.println("평균은 " + sum/5 + "입니다.");
-		System.out.println("평균은 " + (double) sum / arrs.length + "입니다.");
+		System.out.println("평균은 " + (double)sum / arrs.length + "입니다.");
 	}
 
 	public void exercise4() {
@@ -100,24 +100,4 @@ public class Exercise_Array {
 
 	}
 
-	public void exercise6() {
-//		for-each문
-		int[] nums = { 1, 2, 3, 4, 5 };
-		int sum = 0;
-		for (int num : nums) {
-			System.out.print(num + " ");
-			sum += num;
-		}
-		System.out.println("합은 : " + sum);
-
-		String[] fruits = { "사과", "배", "복숭아", "체리", "딸기", "수박" };
-//		for (int i = 0; i < fruits.length; i++) {
-//			System.out.print(fruits[i] + " ");
-//		}
-		for (String fruit : fruits) {
-			System.out.print(fruit + " ");
-		}
-
-	}
-	
 }

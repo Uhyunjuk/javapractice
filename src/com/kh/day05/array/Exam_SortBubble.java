@@ -25,17 +25,18 @@ public class Exam_SortBubble {
 		// 1, 2, 3, 4, 5
 		// 1, 2, 3, 4, 5
 
-		int[] arrs = { 2, 5, 4, 1, 3 };
-		for (int i = 0; i < arrs.length - 1; i++) {
-			for (int j = 0; j < (arrs.length - 1) - i; j++) {
-				if (arrs[j] > arrs[j + 1]) {
-					int temp = arrs[j + 1];
-					arrs[j + 1] = arrs[j];
+		
+		int[] arrs = {2, 5, 4, 1, 3};
+		for (int i = 0; i < arrs.length-1; i++) {
+			for(int j = 0; j < (arrs.length-1)-i; j++) {
+				if(arrs[j] > arrs[j+1]) {
+					int temp = arrs[j+1];
+					arrs[j+1] = arrs[j];
 					arrs[j] = temp;
 				}
 			}
 		}
-		for (int i = 0; i < arrs.length; i++) {
+		for(int i = 0; i < arrs.length; i++) {
 			System.out.print(arrs[i] + " ");
 		}
 	}
