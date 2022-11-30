@@ -100,4 +100,24 @@ public class Exercise_Array {
 
 	}
 
+	public void exercise6() {
+//		for-each문
+		int[] nums = { 1, 2, 3, 4, 5 };
+		int sum = 0;
+		for (int num : nums) {
+			System.out.print(num + " ");
+			sum += num;
+		}
+		System.out.println("합은 : " + sum);
+
+		String[] fruits = { "사과", "배", "복숭아", "체리", "딸기", "수박" };
+//		for (int i = 0; i < fruits.length; i++) {
+//			System.out.print(fruits[i] + " ");
+//		}
+		for (String fruit : fruits) {
+			System.out.print(fruit + " ");
+		}
+
+	}
+	
 }
