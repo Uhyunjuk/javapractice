@@ -8,6 +8,7 @@ public class Exercise_ScoreProgram2 {
 	static int kor = 0;
 	static int eng = 0;
 	static int math = 0; // 전역변수, 클래스 변수
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
