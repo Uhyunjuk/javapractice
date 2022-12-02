@@ -3,16 +3,12 @@ package com.kh.day07.student;
 import java.util.Scanner;
 
 public class StudentFunction {
-
+	//student클래스로분리
 	Student student;
 
 	public StudentFunction() {
 		student = new Student();
 	}
-	/**
-	 * 학생관리 프로그램 메뉴 출력
-	 * @return choice
-	 */
 	
 	public int printMenu() {
 		Scanner sc = new Scanner(System.in);
