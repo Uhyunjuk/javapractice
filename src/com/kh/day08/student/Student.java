@@ -41,7 +41,7 @@ public class Student {
 		this.name = name;
 	}
 
-	public void serFirstSCore(int firstScore) {
+	public void setFirstSCore(int firstScore) {
 		this.firstScore = firstScore;
 	}
 

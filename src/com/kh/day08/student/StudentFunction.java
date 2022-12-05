@@ -33,7 +33,7 @@ public class StudentFunction {
 			int secondScore = sc.nextInt();
 			students[i] = new Student();
 			students[i].setName(name);
-			students[i].serFirstSCore(firstScore);
+			students[i].setFirstSCore(firstScore);
 			students[i].setSecondScore(secondScore);
 		}
 
@@ -91,7 +91,8 @@ public class StudentFunction {
 
 	}
 	
-/**if(avg >=60) {
+/*
+ * if(avg >=60) {
  *	 if(num1 < 40) {
  * 		system.out.println("1차 시험 재평가");
  * } else if(num2 < 40) {
